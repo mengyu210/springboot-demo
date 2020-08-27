@@ -13,6 +13,9 @@ import ma.glasnost.orika.impl.DefaultMapperFactory;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+/**
+ * @author guoyapeng
+ */
 @Configuration
 public class OrikaMapperConfig {
 
