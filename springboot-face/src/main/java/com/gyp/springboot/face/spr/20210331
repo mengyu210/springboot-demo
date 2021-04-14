@@ -1,0 +1,42 @@
+## MVC的实现原理
+request请求
+Spring的DispatcherServlet,它是一个前端控制器
+请求HandlerMapping 
+决定把请求传给哪一个控制器Controller
+
+## Class加载过程
+加载、链接(验证，准备，解析) 初始化
+
+## 线程的状态
+新建  就绪 运行 阻塞 死亡
+start() 新建-就绪
+sleep(),join() 运行-阻塞
+wait() 运行- 等待
+
+## bean的生命周期
+实例化
+填充属性
+调用BeanNameAware的setBeanName()
+调用BeanNameAware的SetBeanFactory()方法
+调用ApplicationContextAware的SetApplicationContext()方法
+调用BeanPostProcessor的预初始化方法
+调用InitializingBean的AfterPropertiesSet()方法
+调用自己的初始化方法
+调用BeanPostProcessor的初始化方法
+调用DisposableBean的destroy()
+调用自定义的销毁方法
+
+## redis集群
+1主2从3哨兵  (3台哨兵进行监控)
+
+## Oracle的执行计划
+1 set autotrace on  
+执行 要查询的SQL 
+显示执行计划
+2 EXPLAIN PLAN FOR 语句 显示执行计划
+
+## 反射
+1 获取类对象 Class.forName() (常用) 
+Hero.class  new Hero().getClass()
+2 利用发射机制创建对象
+3 获取成员变量并使用  

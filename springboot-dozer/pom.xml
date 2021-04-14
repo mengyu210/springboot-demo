@@ -11,7 +11,7 @@
     <groupId>com.gyp</groupId>
     <artifactId>springboot-dozer</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>springboot-dozer</name>
+    <name>springBoot-dozer</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>

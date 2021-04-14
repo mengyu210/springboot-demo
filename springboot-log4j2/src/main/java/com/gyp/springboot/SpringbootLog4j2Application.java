@@ -3,6 +3,9 @@ package com.gyp.springboot;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+/**
+ * @author guoyapeng
+ */
 @SpringBootApplication
 public class SpringbootLog4j2Application {
 

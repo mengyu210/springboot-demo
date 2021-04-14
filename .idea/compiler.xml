@@ -2,29 +2,63 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springboot-globalconfig" />
+        <module name="springboot-nacos" />
+        <module name="nacos-spring-boot-discovery" />
+        <module name="springboot-maii" />
+        <module name="springboot-algorithm" />
+        <module name="springboot-face" />
         <module name="springboot-dozer" />
         <module name="springboot-freemarker" />
+        <module name="springboot-redis" />
+        <module name="springboot-es" />
+        <module name="springboot-reptile" />
+        <module name="springboot-util" />
         <module name="springboot-security" />
         <module name="springboot-log4j2" />
+        <module name="springboot-sql" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="nacos-spring-boot-discovery" target="1.8" />
+      <module name="springboot-algorithm" target="1.8" />
       <module name="springboot-dozer" target="1.8" />
+      <module name="springboot-es" target="1.8" />
+      <module name="springboot-face" target="1.8" />
       <module name="springboot-freemarker" target="1.8" />
+      <module name="springboot-globalconfig" target="1.8" />
       <module name="springboot-log4j2" target="1.8" />
+      <module name="springboot-maii" target="1.8" />
+      <module name="springboot-nacos" target="1.8" />
+      <module name="springboot-redis" target="1.8" />
+      <module name="springboot-reptile" target="1.8" />
       <module name="springboot-security" target="1.8" />
+      <module name="springboot-sql" target="1.8" />
+      <module name="springboot-util" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="nacos-spring-boot-discovery" options="-parameters" />
+      <module name="springboot-algorithm" options="-parameters" />
       <module name="springboot-dozer" options="-parameters" />
+      <module name="springboot-es" options="-parameters" />
+      <module name="springboot-face" options="-parameters" />
       <module name="springboot-freemarker" options="-parameters" />
+      <module name="springboot-globalconfig" options="-parameters" />
       <module name="springboot-log4j2" options="-parameters" />
+      <module name="springboot-maii" options="-parameters" />
+      <module name="springboot-nacos" options="-parameters" />
+      <module name="springboot-redis" options="-parameters" />
+      <module name="springboot-reptile" options="-parameters" />
       <module name="springboot-security" options="-parameters" />
+      <module name="springboot-sql" options="-parameters" />
+      <module name="springboot-util" options="-parameters" />
     </option>
   </component>
 </project>

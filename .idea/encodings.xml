@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/nacos-spring-boot-discovery/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-algorithm/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-dozer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-es/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-face/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-freemarker/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-globalconfig/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-log4j2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-maii/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-nacos/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-redis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-reptile/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-security/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-sql/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-util/src/main/java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

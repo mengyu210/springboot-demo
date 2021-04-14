@@ -1,4 +1,4 @@
-package com.kundy.excelutils.entity.po;
+package com.gyp.springboot.util;
 
 import lombok.Data;
 import lombok.experimental.Accessors;
@@ -14,17 +14,6 @@ public class TtlProductInfoPo {
 
     private Long id;
     private String productName;
-    private Long categoryId;
-    private String categoryName;
-    private Long branchId;
-    private String branchName;
-    private Long shopId;
-    private String shopName;
-    private Double price;
-    private Integer stock;
-    private Integer salesNum;
-    private String createTime;
-    private String updateTime;
-    private Byte isDel;
+
 
 }

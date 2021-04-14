@@ -19,6 +19,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+/**
+ * @author guoyapeng
+ */
 @Slf4j
 @RestController
 @RequestMapping(value = "/orika")
@@ -30,7 +33,9 @@ public class TestOrikaController {
 
 
 
-    @GetMapping(value = "/touser")
+
+
+    @GetMapping(value = "/toUser")
     public User toUser(@RequestBody UserVO userVO){
         User map = mapperFactory.getMapperFacade().map(userVO, User.class);
         return map;

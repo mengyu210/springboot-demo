@@ -7,6 +7,17 @@
         <option value="$PROJECT_DIR$/springboot-dozer/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-freemarker/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-log4j2/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-maii/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-util/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-es/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-globalconfig/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-reptile/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-sql/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-nacos/pom.xml" />
+        <option value="$PROJECT_DIR$/nacos-spring-boot-discovery/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-algorithm/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-face/pom.xml" />
       </list>
     </option>
   </component>
